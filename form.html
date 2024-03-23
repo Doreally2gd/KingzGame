@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Games</title>
+  <style>
+  
+  body {
+    background: black;
+  }
+    .wrapper1{
+  height: 2vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo1 {
+  width: 14ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+h6 {
+  font-size: 30px;
+  text-align: center;
+}
+ section a {
+   background: steelblue;
+   text-decoration: none;
+   color: white;
+   padding: 20px;
+  border-radius: 5px
+ }
+ div div {
+   color: steelblue;
+ }
+ h6 {
+   color: steelblue;
+ }
+  </style>
+</head>
+
+<body>
+  <h6>To Play</h6>
+<div class="wrapper1">
+    <div class="typing-demo1">
+      Choose a game!
+      
+    </div>
+</div>
+<br><br><br><br>
+<section>
+  <a href="game.html">Word Quiz</a>
+  <br><br><br><br>
+  <a href="Rock.html">Rock, papper & scissors</a>
+  <br><br><br><br>
+  <a href="tt.html">How to play all the games</a>
+</section>
+</body>
+
+</html>

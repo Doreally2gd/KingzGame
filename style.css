@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    background: steelblue;
+}
+
+nav {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  
+}
+
+nav img {
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+nav p {
+  font-size: 50px;
+  color: steelblue;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  /**right: 30px;**/
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  background: steelblue;
+  padding: 13px;
+  border-radius: 30px;
+  margin-right: 10px;
+  /**margin-left: 20px;**/
+}
+.wrapper {
+  height: 10vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 22ch;
+  animation: typing 2s steps(22), blink .10s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.Move {
+  background: black;
+  
+}
+
+div marquee img {
+  width: 100px;
+  height: 100px;
+}
+
+body p {
+  font-size: 17px;
+  text-align: center;
+}
+
+section h3 {
+  text-align: center;
+}
+
+section p {
+  font-size: 15px;
+}
+
+section {
+  background: black;
+  color: steelblue;
+}
+
+section a img {
+  width: 30px;
+  height: 30px;
+  justify-content: space-between;
+  padding-left: 45px;
+}
